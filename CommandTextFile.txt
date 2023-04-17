@@ -1,0 +1,7 @@
+﻿sc.exe create ".NET Joke Service" binpath="F:\WorkSpace\R&D\BackgroundService\bin\Debug\netcoreapp3.1\BackgroundService.exe"
+
+sc.exe start ".NET Joke Service"
+
+sc.exe stop ".NET Joke Service"
+
+sc.exe delete ".NET Joke Service"
